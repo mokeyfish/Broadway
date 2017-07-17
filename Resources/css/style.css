@@ -9,13 +9,12 @@ h1 {
   width: 840;
   height: 820;
   background-repeat: no-repeat;
-  background-position: center;;
+  background-position: center;
 }
 
 .button {
   font-size: 18px;
   color: White;
-  text-align: center;
 }
 
 .Titles{
@@ -25,12 +24,19 @@ h1 {
 
 * {
   font-family: Helvetica;
-  text-align: center;
 }
 
 #process {
   font-size: 32px;
   font-weight: bold;
+  text-align: center;
+}
+
+#copyright {
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
+  text-align: left;
 }
 
 #design {
@@ -43,4 +49,8 @@ h1 {
 
 .disc {
   font-size: 14px;
-  }
+}
+
+h1, #header, .button, .Titles, #Process, #design, .disc {
+  text-align: center;
+}
